@@ -113,6 +113,7 @@ public class BasicOmniOpMode_Linear extends LinearOpMode {
         }
     }
 
+    // Function run while opMade is active
     private void ActiveOpMode() {
         double max;
 
