@@ -77,7 +77,7 @@ public class BasicOmniOpMode_Linear extends LinearOpMode {
 
     @Override
     public void runOpMode() {
-1
+
         // Initialize the hardware variables. Note that the strings used here must correspond
         // to the names assigned during the robot configuration step on the DS or RC devices.
         leftFrontDrive  = hardwareMap.get(DcMotor.class, "left_front_drive");
@@ -113,7 +113,7 @@ public class BasicOmniOpMode_Linear extends LinearOpMode {
         }
     }
 
-    // Function run while opMade is active
+    // Method run while opMade is active
     private void ActiveOpMode() {
         double max;
 
